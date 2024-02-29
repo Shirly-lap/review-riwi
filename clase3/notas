@@ -1,0 +1,42 @@
+
+# TEMA LISTAS (ARREGLOS)
+
+
+
+# print("Crear lista")
+# marcas = ["Toyota", "Ford", "Mazda"]
+# print(marcas)
+
+# # Agregar elementos a una lista
+# print("Agregar valores")
+# marcas.insert(3,"Nissan")
+# print(marcas)
+
+# # Se agg al final de la lista
+# print("Agregar valores al final de la  lista")
+# marcas.append("Renault")
+# print(marcas)
+
+# #Combinar listas
+# modelos = ["Yaris", "Fiesta", "Cx5"]
+# marcas.extend(modelos)
+# print(marcas)
+
+# #elimminar un registro mediante el indice
+# del marcas[0]
+
+# #elimminar un registro mediante el valor
+# marcas.remove("Ford")
+
+# #marcas.clear() para borrar todos los valores de la lista
+
+# # para borrar el ultimo valor
+# # marcas.pop()
+
+# #Recorrer una lista
+# # for vehiculo in marcas
+# #ordenar una lista numerica o alfabeticamennte (no ordena listas hibridas)
+# marcas.sort()
+
+
+
