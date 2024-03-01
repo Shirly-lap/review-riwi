@@ -1,3 +1,23 @@
+# 1. Escribir un programa que pida al usuario dos números y determine si ambos son pares.
+# 
+# num1 = int(input("ingresa el primer valor: "))
+# num2 = int(input("ingresa el segundo valor: "))
+
+# if( (num1%2==0) and (num2%2==0)):
+#     print("AMBOS NUMEROS SON PARES")
+# else: print("AMBOS NUMEROS NO SON PARES")
+
+# 2. Crear un programa que solicite al usuario su edad y su género ('M' para masculino y 'F' para femenino) y determine si la persona es elegible para jubilarse, 
+# considerando que debe tener al menos 60 años si es hombre o 55 años si es mujer.
+# 
+# edad = int(input("INgresa tu edad por favor: "))
+# genero = input("Ingresa tu genero ('M' para masculino y 'F' para femenino: ").lower()
+
+# if((edad >=60 and genero =="m") or (edad >=55 and genero =="m") ):
+#     print("Puedes jubilarte")
+# else: print("Aun no cumples los requisitos para jubilarte ")
+
+
 #3. Escribir un programa que determine si un año es bisiesto. 
 # Un año es bisiesto si es divisible por 4 pero no por 100, excepto si también es divisible por 400.
 
