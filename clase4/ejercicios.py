@@ -76,11 +76,11 @@ ingresarOtroEStudiante ="si"
 while ingresarOtroEStudiante == "si":
     #si la condicion se cumple , se ejecuta lo que esta dentro del while
     
-    nombre = input("¿Cual es tu nombre? ")
-    apellido = input("¿Cual es tu apellido? ")
-    edad = int(input("¿Cual es tu edad? "))
-    correo = input("¿Cual es tu correo electronico?")
-    direccion =  input("¿Donde vives? ")
+    nombre = input("¿Cual es tu nombre?: ")
+    apellido = input("¿Cual es tu apellido?: ")
+    edad = int(input("¿Cual es tu edad?: "))
+    correo = input("¿Cual es tu correo electronico?: ")
+    direccion =  input("¿Donde vives?: ")
 
 
     estudiante = {
@@ -96,8 +96,20 @@ while ingresarOtroEStudiante == "si":
         ingresarOtroEStudiante= False
         
 
+print(f'''
+
+    **********************
+    Lista  de Estudiantes: 
+    **********************
+        
+    ''')
 
 for  estudiante in listaEstudiantesRiwi :
     
-    print(estudiante["nombre"].upper(),estudiante["apellido"].capitalize(), estudiante["correo"].lower(), estudiante["edad"], estudiante["direccion"].title())
-    print(listaEstudiantesRiwi)
+    print(f'''
+        Nombre: {estudiante["nombre"].upper()}
+        Apellidos: {estudiante["apellido"].capitalize()}
+        Correo: {estudiante["correo"].lower()}
+        Edad: {estudiante["edad"]}
+        Dirección: {estudiante["direccion"].title()}
+        ''')
