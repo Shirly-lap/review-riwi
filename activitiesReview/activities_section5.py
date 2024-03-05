@@ -119,18 +119,42 @@ libro={
 # # 25. Muestra en la consola un mensaje que indique la capacidad de la bolsa (tamaño).
 # print("La capacidad de la bolsa es: ",bolsa["tamaño"])
 # 26. Crea un diccionario llamado telefono con propiedades como marca, modelo y sistema operativo.
-telefono={
-    "marca":"Xiaomi",
-    "modelo": "13 T PRO",
-    "sistemaOperativo": "12MI"
-}
-# 27. Muestra en la consola un mensaje indicando el sistema operativo del teléfono.
-print("El sistema operativo es: ",telefono["sistemaOperativo"])
-# 28. Agrega una propiedad al diccionario telefono que represente la cantidad de memoria RAM.
+# telefono={
+#     "marca":"Xiaomi",
+#     "modelo": "13 T PRO",
+#     "sistemaOperativo": "12MI"
+# }
+# # 27. Muestra en la consola un mensaje indicando el sistema operativo del teléfono.
+# print("El sistema operativo es: ",telefono["sistemaOperativo"])
+# # 28. Agrega una propiedad al diccionario telefono que represente la cantidad de memoria RAM.
+# telefono["cantidad_memoria_RAM"]= "12GB"
+# print(telefono)
+
 # 29. Crea un diccionario llamado animal con propiedades como tipo y sonido.
-# 30. Muestra en la consola un mensaje que indique el sonido del animal.
+# animal={
+#     "tipo":"mamifero",
+#     "sonido":"MUUUUUUUUUUUUUUUUUUUUUUUU"
+# }
+# # 30. Muestra en la consola un mensaje que indique el sonido del animal.
+# print("EL sonido del animal ingresado es: ",animal["sonido"])
+
 # 31. Crea un diccionario llamado vuelo con propiedades como aerolínea, número de vuelo y hora de salida.
-# 32. Muestra en la consola un mensaje que indique la aerolínea y el número de vuelo.
-# 33. Agrega una propiedad al diccionario vuelo que represente el destino del vuelo.
+# vuelo={
+#     "aereolinea":"avianca",
+#     "numero_vuelo":"AV200",
+#     "hora_salida": "12:30 pm"
+# }
+# # 32. Muestra en la consola un mensaje que indique la aerolínea y el número de vuelo.
+# print("TU areolinea y vuelo son: ",vuelo["aereolinea"], vuelo["numero_vuelo"])
+# # 33. Agrega una propiedad al diccionario vuelo que represente el destino del vuelo.
+# vuelo["destino"]="BOGOTÁ"
+# print(vuelo)
+
 # 34. Crea un diccionario llamado jugador con propiedades como nombre, equipo y posición.
-# 35. Muestra en la consola un mensaje que indique el nombre y el equipo del jugador.
+# jugador ={
+#     "nombre": "pedro",
+#     "equipo": "arsenal",
+#     "posicion": "lateral"
+# }
+# # 35. Muestra en la consola un mensaje que indique el nombre y el equipo del jugador.
+# print(jugador["nombre"], jugador["equipo"])
