@@ -165,5 +165,5 @@ while True:
         print(factura)
         print(total)
 
-    elif opcionMenu ==4:
+    # elif opcionMenu ==4:
         
