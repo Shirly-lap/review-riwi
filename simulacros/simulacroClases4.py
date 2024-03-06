@@ -20,52 +20,52 @@ usuarioNUevos = True
 
 productos=[    
     {"nombre":"piña",
-    "precio": "100",
+    "precio": 100,
     "categoria":"frutas"
     },
     
     {"nombre":"pera",
-    "precio": "200",
+    "precio": 200,
     "categoria":"frutas"
     },
     
     {"nombre":"uva",
-    "precio": "300",
+    "precio": 300,
     "categoria":"frutas"
     },
     
     {"nombre":"manzana",
-    "precio": "400",
+    "precio": 400,
     "categoria":"frutas"
     },
     
     {"nombre":"kiwi",
-    "precio": "500",
+    "precio": 500,
     "categoria":"frutas"
     },
     
     {"nombre":"papa",
-    "precio": "600",
+    "precio": 600,
     "categoria":"tuberculos"
     },
     
     {"nombre":"ñame",
-    "precio": "700",
+    "precio": 700,
     "categoria":"tuberculos"
     },
     
     {"nombre":"yuca",
-    "precio": "800",
+    "precio": 800,
     "categoria":"tuberculos"
     },
     
     {"nombre":"zanaoria",
-    "precio": "900",
+    "precio": 900,
     "categoria":"verdura"
     },
     
     {"nombre":"tomate",
-    "precio": "1000",
+    "precio": 1000,
     "categoria":"verdura"
     },
 ]
@@ -142,22 +142,28 @@ while True:
             Producto= {productoCarrito["nombre"]}
             precio= {productoCarrito["precio"]}
             cantidad= {productoCarrito["cantidad"]}
-            Sub Total= 
-            
             ''')
         
             #DESEAS AÑADIR UN PRODUCTO MAS?  
             
     elif opcionMenu == 3: 
-        subTotal= 0
-        total= 0
+        print('********* FACTURA **********')
         
-        factura={
-            "Producto": {productoCarrito["nombre"]},
-            "Precio": {productoCarrito["precio"]},
-            "cantidad": {productoCarrito["cantidad"]},
-            "subtotal": {productoCarrito["precio"]}*{productoCarrito["cantidad"]},
-            "total": {productoCarrito["subTotal"]}*0.19
-        }
-        facturas.append(factura)    
-        print (facturas)
+        for i in carrito:
+            print(i)
+            factura={
+                "Producto": {i["nombre"]},
+                "Precio": {i["precio"]},
+                "cantidad": {i["cantidad"]},
+                "subTotal": i["precio"]*i["cantidad"],
+                # "total": i["subTotal"]*0.19
+            }
+            
+            total=factura["subTotal"]*0.19
+        
+        facturas.append(i)  
+        print(factura)
+        print(total)
+
+    elif opcionMenu ==4:
+        
