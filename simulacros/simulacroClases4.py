@@ -93,9 +93,9 @@ while True:
     
     if opcionMenu == 1:
         print('********* REGISTRO USUARIO *************')
-        nombre= input("INGRESA TU NOMBRE"),
-        apellido= input("INGRSA TU APELLIDO"),
-        identificacion= input("INGRESA TU ID")
+        nombre= input("INGRESA TU NOMBRE => "),
+        apellido= input("INGRSA TU APELLIDO => "),
+        identificacion= input("INGRESA TU ID =>")
         
         usuario= {
             "nombre": nombre,
@@ -110,7 +110,7 @@ while True:
         USUARIO REGISTRADO EXITOSAMENTE
         ********************************
             
-            ''')
+        ''')
         otroUsuario = input("¿DESEAS REGISTRAR OTRO USUARIO? [SI/NO]")
         if otroUsuario.upper() != "SI" :
             usuarioNUevos = False
@@ -128,7 +128,7 @@ while True:
                 Categoria ={producto["categoria"]}
                 ''')
             contador +=1
-        prductoSelecionado= int(input("INgresa le producto a agregar: "))
+        prductoSelecionado= int(input("Ingresa le producto a agregar: "))
         cantidadProductos= int(input("cuantos productos quieres comprar?: "))
         productoCarrito={
             "nombre": productos[prductoSelecionado]["nombre"],
@@ -165,5 +165,27 @@ while True:
         print(factura)
         print(total)
 
-    # elif opcionMenu ==4:
+    elif opcionMenu ==4:
+        for producto in carrito :
+            # print(f'''Estos son los productos de tu carrito:"
+            
+            # Producto= {productoCarrito["nombre"]}
+            # precio= {productoCarrito["precio"]}
+            # cantidad= {productoCarrito["cantidad"]}
+            # ''')
+            print(carrito)
+            contador =0 
+            print(f''' {contador} -{producto["nombre"]} ''')
+            contador+=1
+            modificar =input("Deseas modificar un producto del carrito? ")
+            if modificar.upper() == "SI":
+                modificarIndice= int(input("Ingresa el indice que quieres modificar => "))
+                nuevoProducto = input("Ingresa el nuevo nombre del producto")
+                nuevaCantidad = int(input("Ingresa la cantidad a modificar"))
+                # carrito[modificarIndice]["nombre"]=nuevoProducto
+                carrito[modificarIndice]["cantidad"]=nuevaCantidad
+                
+                print(carrito)
+                
+            
         
