@@ -16,6 +16,7 @@ print(f'''
 BIENVENIDO A TU CALCULADORA DE DESCUENTOS
 **************************
     ''')
+#CREAMOS EL MENU 
 while True:
     opcionMenu=int(input(f'''
     ¿QUÉ DESEAS HACER HOY?
@@ -23,11 +24,14 @@ while True:
     [1] Calcular descuento
     [2] Cerrar programa 
     Ingresa el numero de la opcion del menu => '''))
+#VALIDAMOS SEGUN LA OPCION DEL MENU INGRESADA
     if opcionMenu == 1:
+#SOLICITAMOS LA CANTIDAD Y EL VALOR UNITARIO DEL PRODUCTO Y ASÍ OBTENER EL TOTAL 
         cantidad= int(input("Ingrese la cantidad de productos: "))
         valorUnitario= int(input("Ingresa el valor unitario del producto: "))
 
         total= cantidad*valorUnitario
+#VALIDAMOS LOS DESCUENTOS SUGÚN LA CANTIDAD DE USUARIOS INGRESADOS
         if cantidad <5:
             print(f'''
         Descuento no apicable
@@ -47,7 +51,7 @@ while True:
             descuento= int(total * 0.15)
             totalPagar= int( total - descuento)
             print("=> El descuento aplicado es de: ", descuento, "y el total a pagar es ", totalPagar)
-            
+#TERMINAMOS PROGRAMA            
     else: print("Hasta pronto")
         
         

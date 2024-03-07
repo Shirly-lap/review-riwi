@@ -58,20 +58,25 @@ BIENVENIDO A TU BIBLIOTECA
     ''')
 
 
-
+#LE SOLICITAMOS EL LIBRO QUE QUIERE BUSCAR
 buscarlibro = input("Ingresa por favor el titúlo del libro que deseas")
+
 for libro in libros :
+#BUSCAMOS EL LIBRO INGRSADO  Y VALIDAMOS QUE ESTE DISPONIBLE  
         if libro["titulo"]==buscarlibro and libro["estado"]==True:
+            
+            #VALIDAMOS QUE EL USUARIO TENGA LA MEMBRESIA ACTIVA            
             print("EL libro ingresado esta disponible, ahora validaremos si tu membresia esta activa o no")
             buscarUsuario= int(input("Por favor ingresa tu identificacion: "))
             for usuario in usuarios :
                 if usuario["identificacion"]==buscarUsuario and usuario["membresia"]==True:
                     print("Felicidades! te puedes llevar el libro")
                     
+                #IMPRIMIMOS CUANDO EL USUARIO NO TIENE MEMBRESIA DISPONIBLE    
                 elif usuario["identificacion"]==buscarUsuario and usuario["membresia"]==False:
                     print("Lo sentimos, tu membresia no esta activa")
         
-
+#BUSCAMOS EL LIBRO INGRESADO  Y VALIDAMOS  EN CASO QUE NO ESTE DISPONIBLE  
         elif libro["titulo"]==buscarlibro and libro["estado"]==False:
             buscarUsuario= int(input("Por favor ingresa tu identificacion: "))
             for usuario in usuarios :
