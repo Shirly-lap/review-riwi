@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    
+
+    
+}
+
+nav ul li{
+    margin: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

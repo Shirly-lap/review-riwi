@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin:10%;
+}
+
+.container{
+    border: solid 1px;
+    border-color: bisque ;
+    border-radius: 10px;
+    display: flex;
+    width: 700px;
+    height: 500px;
+
+}
+
+article .imgCard img{
+   height: 500px;
+
+}
+
+.container .textoCard{
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .textoCard .texto{
+    text-align: justify;
+}
+
+.container .textoCard .precio{
+    display: flex;
+    align-items: center;
+
+    
+}
+.container .textoCard .precio h2{
+    color: rgb(22, 127, 22);
+}
+
+del{
+    font-size: 13px;
+    padding: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(22, 127, 22);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-top: 50px;
+}
+
+

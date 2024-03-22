@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.movie{
+
+    width: 100%;
+    color: white;
+    background: url("/css/clase_8/actividad-clases/img/superman.png") 20px 20px/150px 218px no-repeat, 
+    url("/css/clase_8/actividad-clases/img/superman-volando.png ") 0% 0%/cover;
+    padding: 20px 38px 41px 280px;
+    box-sizing: border-box;
+    
+   
+    
+}
+.movie__description{
+    font-size: 1.5;
+}
+
+.movie__button{
+    color: #fff;
+    font-size: 0.7em;
+    padding: 7px;
+    background-color:#EB383B;
+    margin-top: 40px;
+    border: 0;
+    width: 200px;
+    height: 40px;
+}
