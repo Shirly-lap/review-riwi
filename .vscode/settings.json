@@ -2,5 +2,6 @@
     "cSpell.words": [
         "mundo"
     ],
-    "docwriter.style": "Auto-detect"
+    "docwriter.style": "Auto-detect",
+    "liveServer.settings.port": 5501
 }

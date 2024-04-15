@@ -1,30 +1,42 @@
 body{
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 .movie{
-
-    width: 100%;
+    margin: 300px;
+    width: 900vh;
     color: white;
-    background: url("/css/clase_8/actividad-clases/img/superman.png") 20px 20px/150px 218px no-repeat, 
-    url("/css/clase_8/actividad-clases/img/superman-volando.png ") 0% 0%/cover;
-    padding: 20px 38px 41px 280px;
+    background: url("./img/superman.png") 200px 30px/180px 290px no-repeat, 
+    url("./img/superman-volando.png")  0% 0%/cover;
+    padding: 50px 38px 41px 280px;
     box-sizing: border-box;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    background-image: url("./img/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
     
    
     
 }
 .movie__description{
-    font-size: 1.5;
+    font-size: 1.9rem;
+    gap: 200px;
 }
 
 .movie__button{
     color: #fff;
-    font-size: 0.7em;
+    font-size: 1.7em;
     padding: 7px;
     background-color:#EB383B;
     margin-top: 40px;
     border: 0;
-    width: 200px;
-    height: 40px;
+    width: 250px;
+    height: 60px;
+
 }

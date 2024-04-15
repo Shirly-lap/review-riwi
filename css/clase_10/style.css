@@ -1,0 +1,146 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+main{
+    margin: 200px;
+}
+
+
+.container-aliados-estudiantes{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    margin: 30px;
+}
+
+.container-aliados-estudiantes div{
+    width: 590px ;
+    height: 400px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    padding: 100px;
+   
+
+
+
+}
+
+.container-aliados-estudiantes div p{
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+.copy-write{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.container-aliados-estudiantes  div a{
+
+    width:150px ;
+    color: white;
+    text-decoration: none;
+    height: 45px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#btn-quiero-aplicar {
+    background-color:#6B5CFF;
+
+}
+
+#btn-contactanos {
+    background-color:#302e49;
+
+}
+
+.estudiantes{
+    background-color: #302e49;
+    transform: translateY(-50px);
+
+    
+
+}
+
+.empresas-aliados{
+    background-color: #6B5CFF;
+    transform: translateX(-63px);
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%);
+    border-radius: 100px 30px 30px 30px !important;
+}
+
+#btn-quiero-aplicar:hover{
+    cursor: pointer;
+    background-color: blue;
+
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 20px;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.colum-1{
+        /* display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 2fr;
+        grid-column-gap:0px;
+        grid-row-gap:0px; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+footer img{
+    width: 50px;
+}
+.list-redes{
+    display: flex;
+    gap: 40px;
+}
+.container-text{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    
+}
+.text-logo a{
+    font-size: 25px;
+    color: black;
+}
+
+#instagram{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   
+ 
+    
+}

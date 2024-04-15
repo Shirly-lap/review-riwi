@@ -23,11 +23,62 @@ header nav ul {
 }
 
 nav ul li{
-    margin: 20px;
+    margin: 10px;
     
+}
+
+nav button{
+    background-color: rgb(86, 123, 149);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    height: 30px;
 }
 
 a{
     text-decoration: none;
     color: black;
 }
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+
+}
+
+.colum-1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.colum1_1 {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    
+}
+
+.colum-2{
+padding: 20px;
+display: flex;
+flex-direction: column;
+}
+
+.colum2_2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.colum-3{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    }
