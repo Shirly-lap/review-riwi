@@ -1,0 +1,15 @@
+@import url(./normalize.css);
+header {
+    height: 100px;
+    background-color: black;
+}
+
+.section {
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    height: 300px;
+    background-color: aqua;
+}
